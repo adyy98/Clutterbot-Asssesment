@@ -1,0 +1,73 @@
+[0.013s] Invoking command in '/home/aditya/ROS2/rf2o_odom/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/aditya/.local/bin/cmake /home/aditya/ROS2/rf2o_odom/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/aditya/ROS2/rf2o_odom/install/rf2o_laser_odometry
+[0.084s] -- The C compiler identification is GNU 9.4.0
+[0.149s] -- The CXX compiler identification is GNU 9.4.0
+[0.162s] -- Detecting C compiler ABI info
+[0.242s] -- Detecting C compiler ABI info - done
+[0.250s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.251s] -- Detecting C compile features
+[0.251s] -- Detecting C compile features - done
+[0.253s] -- Detecting CXX compiler ABI info
+[0.335s] -- Detecting CXX compiler ABI info - done
+[0.348s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.349s] -- Detecting CXX compile features
+[0.349s] -- Detecting CXX compile features - done
+[0.351s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.375s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.375s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.554s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.591s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.596s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.685s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.712s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.779s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.818s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.819s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.820s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.894s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.895s] -- Looking for pthread_create in pthreads
+[0.966s] -- Looking for pthread_create in pthreads - not found
+[0.967s] -- Looking for pthread_create in pthread
+[1.044s] -- Looking for pthread_create in pthread - found
+[1.047s] -- Found Threads: TRUE  
+[1.147s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.168s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[1.174s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.177s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.426s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.471s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.520s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[1.572s] -- Configuring done (1.5s)
+[1.585s] -- Generating done (0.0s)
+[1.587s] -- Build files have been written to: /home/aditya/ROS2/rf2o_odom/build/rf2o_laser_odometry
+[1.599s] Invoked command in '/home/aditya/ROS2/rf2o_odom/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/aditya/.local/bin/cmake /home/aditya/ROS2/rf2o_odom/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/aditya/ROS2/rf2o_odom/install/rf2o_laser_odometry
+[1.606s] Invoking command in '/home/aditya/ROS2/rf2o_odom/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/aditya/.local/bin/cmake --build /home/aditya/ROS2/rf2o_odom/build/rf2o_laser_odometry -- -j16 -l16
+[1.660s] [ 20%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o[0m
+[1.661s] [ 40%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o[0m
+[1.662s] [ 60%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o[0m
+[14.571s] [ 80%] [32m[1mLinking CXX static library librf2o_laser_odometry.a[0m
+[14.599s] [100%] [32m[1mLinking CXX executable rf2o_laser_odometry_node[0m
+[14.727s] [100%] Built target rf2o_laser_odometry
+[15.215s] [100%] Built target rf2o_laser_odometry_node
+[15.233s] Invoked command in '/home/aditya/ROS2/rf2o_odom/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/aditya/.local/bin/cmake --build /home/aditya/ROS2/rf2o_odom/build/rf2o_laser_odometry -- -j16 -l16
+[15.332s] Invoking command in '/home/aditya/ROS2/rf2o_odom/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/aditya/.local/bin/cmake --install /home/aditya/ROS2/rf2o_odom/build/rf2o_laser_odometry
+[15.357s] -- Install configuration: ""
+[15.358s] -- Installing: /home/aditya/ROS2/rf2o_odom/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[15.372s] -- Set runtime path of "/home/aditya/ROS2/rf2o_odom/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node" to ""
+[15.372s] -- Installing: /home/aditya/ROS2/rf2o_odom/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch
+[15.372s] -- Installing: /home/aditya/ROS2/rf2o_odom/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[15.372s] -- Installing: /home/aditya/ROS2/rf2o_odom/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[15.373s] -- Installing: /home/aditya/ROS2/rf2o_odom/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[15.373s] -- Installing: /home/aditya/ROS2/rf2o_odom/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[15.373s] -- Installing: /home/aditya/ROS2/rf2o_odom/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[15.373s] -- Installing: /home/aditya/ROS2/rf2o_odom/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[15.373s] -- Installing: /home/aditya/ROS2/rf2o_odom/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[15.373s] -- Installing: /home/aditya/ROS2/rf2o_odom/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[15.373s] -- Installing: /home/aditya/ROS2/rf2o_odom/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[15.374s] -- Installing: /home/aditya/ROS2/rf2o_odom/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[15.374s] -- Installing: /home/aditya/ROS2/rf2o_odom/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[15.374s] -- Installing: /home/aditya/ROS2/rf2o_odom/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[15.374s] -- Installing: /home/aditya/ROS2/rf2o_odom/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[15.374s] -- Installing: /home/aditya/ROS2/rf2o_odom/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[15.374s] -- Installing: /home/aditya/ROS2/rf2o_odom/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[15.374s] -- Installing: /home/aditya/ROS2/rf2o_odom/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[15.382s] Invoked command in '/home/aditya/ROS2/rf2o_odom/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /home/aditya/.local/bin/cmake --install /home/aditya/ROS2/rf2o_odom/build/rf2o_laser_odometry
